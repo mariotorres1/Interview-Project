@@ -138,7 +138,7 @@ const App = () => {
                       return address.state
                     }
                   })} </td>
-                  <td>{provider.basic.specialization || 'N/A'}</td>
+                  <td>{provider.taxonomies[0].desc || 'N/A'}</td>
                 </tr>
               ))}
             </tbody>
